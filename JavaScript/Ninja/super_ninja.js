@@ -18,11 +18,6 @@ class Ninja {
         this.health += 10
         console.log(`Used Saka +10 Health. Current Health ${this.health}`);
     }
-
-    speakWisdom() {
-        this.drinkSaka()
-        console.log("What one programmer can do in one month, two programmers can do in two months.")
-    }
 }
 
 class Sensei extends Ninja {
@@ -33,6 +28,12 @@ class Sensei extends Ninja {
         this.strength = 10
         this.wisdom = 10
     }
+
+    speakWisdom() {
+        this.drinkSaka()
+        console.log("What one programmer can do in one month, two programmers can do in two months.")
+    }
+    
 }
 
 const superSensei = new Sensei("Master Splinter");
