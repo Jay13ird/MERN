@@ -1,0 +1,17 @@
+.container {
+    text-align: center;
+}
+
+.showList {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.completed {
+    text-decoration: line-through;
+}
+
+.notCompleted {
+    text-decoration: none;
+}
